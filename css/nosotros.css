@@ -1,0 +1,47 @@
+
+*{
+   box-sizing: border-box;
+}
+
+.we{
+    width: 55%;
+    margin-left: 137px;
+    height: auto;
+    
+}  
+
+[class*="parrafon-"]{
+    background-color:white;
+    color: black;
+    width: 100%;
+    height: auto;
+    margin: 20px 15px 20px 0;
+    padding: 10px;
+    box-shadow: 2px 2px 3px black;
+    text-indent: 10px;
+  
+}
+[class*="parrafon-"] h2{
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+
+}
+.aside{
+    width: 23%;
+    height: auto;
+    background: white;
+    float: right;
+    margin-top: -550px;
+    margin-right: 137px;
+    box-shadow: 2px 2px 3px black;
+    text-indent: 10px;
+}
+.aside h2{
+    padding: 10px 5px 10px 10px;
+    font-size: 30px;
+}
+.aside p{
+    padding: 5px 10px 20px 20px;
+}

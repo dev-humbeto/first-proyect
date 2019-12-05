@@ -1,0 +1,393 @@
+                                                           /*ESTYLOS GENERALES DE LA PAGINA*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/carspakedG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+                                                                 /*ESTILOS DEL HEADER*/
+.container{
+    background-color: #FF8000;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    max-height: 200px;
+}
+.title{
+    color:white;
+    padding: 0 0 0 25px;
+    float: left;
+}
+.title h1{
+    font-size: 40px;
+}
+.title p{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+nav {
+    float: right;
+    padding: 30px 25px;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-right: 1px solid white;
+}
+nav a:first-child{
+    border-left: 1px solid white;
+}
+nav a:hover{
+    color: #FF9427;
+}
+                                                            /*BANNER*/
+
+
+.banner{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    
+}
+.banner .box{
+    width: 100%;
+    height: 350px;
+    border-top: 3px solid white;
+    /*background-color: black;*/
+    background-image: url(../img/whiteM.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 3px solid white;
+}
+.text-banner{
+    width: 100%;
+    text-align: center;
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+}
+.text-banner h2{
+    font-size: 30px;
+    color: white;
+}
+.text-banner p{
+    text-align: center;
+    color: white;
+    /*margin-left: 10px;*/
+}
+.barra{
+    height: 25px;
+    margin-top: 20px;
+    width: 25%;
+    box-shadow: 1px 2px 2px white inset;
+}
+.button{
+    padding:2px;
+    height: 25px;
+    width: 6%;
+    box-shadow: none;
+    background-color: #FF8000;
+    color: white;
+    font-size: 15px;
+}
+                                             /*ESTILOS DEL SECTION "MARCAS MAS VENDIDAS*/
+                                             
+.most-sell{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    border: 5px solid #FF8000;
+    background: white;
+    position: relative;
+}
+
+.brands-2{
+    padding-left: 150px;
+    position: absolute;
+    top: 5px;
+}
+
+.brands h3{
+    width: 100%;
+    padding-left: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+.ford {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 45px 25px 40px 30px;
+}
+.toyota{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 60px 25px 40px 30px;
+}
+
+.mitsubishi{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 20px 25px 40px 30px;
+
+}
+
+.chevrolet{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 90px 25px 40px 30px;
+}
+.brands div img{
+    width: 150px;
+}
+
+                                             /*DEBATES SEMANALES*/
+
+.debate{
+    background-color: #00043A;
+    color: #FF8000;
+    width: 43%;
+    height: auto;
+    margin-left: 135px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 2px black;
+}    
+.description, .elections, .options, .option-1, .option-2, .coments {
+     width: 100%;
+}                                       
+.description h2{
+    padding-left: 15px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}                                       
+.description p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-indent: 10px;
+}
+.elections{
+    text-align: center;
+}
+
+.options{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.options span{
+    font-size: 30px;
+    height: 40px;
+    display: inline-block;
+}
+
+.option-1{
+    background-color: #FF8000;
+    color:black;
+    border: none;
+    width: 25%;
+    height: 45px;
+    font-size: 20px;
+    font-style: bold;
+    float: left;
+    margin-left: 80px;
+}
+
+
+.option-1:hover{
+    background: #FF9427
+}
+.option-1:active{
+    box-shadow: 2px 2px 2px black inset;
+    
+}
+.option-2{
+    background-color:#FF8000;
+    color: black;
+    border: none;
+    width: 25%;
+    height: 45px;
+    font-size: 20px;
+    font-style: bold;
+    float: right;
+    margin-right: 80px;
+}
+.option-2:hover{
+    background: #FF9427
+}
+.option-2:active{
+    box-shadow: 2px 2px 2px black inset;
+}
+.coments{
+    width: 100%;
+}                               
+.coments textarea{
+    width: 80%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+.debate button{
+    background-color: #FF8000;
+    color: black;
+    border: none;
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+} 
+.debate button:hover{
+    background: #FF9427
+}
+.debate button:active{
+    box-shadow: 2px 2px 2px black inset;
+}
+
+
+                                        /*CAJA DE COMENTARIOS*/ 
+
+
+.help{
+    background-color: #00043A;
+    color: #FF8000;
+    width: 35%;
+    height: auto;
+    float: right;
+    margin-right: 137px;
+    margin-top: -343px;
+    box-shadow: 0px 4px 2px black;
+}
+
+.help h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 15px;
+}
+
+.help p{
+    text-indent: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.help-coment{
+    width:100%;
+    height: auto;
+    padding-left: 75px;
+    padding-bottom: 15px;
+}
+.help-coment textarea{
+    width: 80%;
+    height: 50px;
+}
+.help-coment button{
+    display: block;
+    width: 80%;
+    height: 25px;
+    background: #FF8000;
+    color: black;
+    font-size: 20px;
+    border: none;
+}
+.help-coment button:hover{
+    background: #FF9427;
+}
+.help-coment button:active{
+    box-shadow: 2px 2px 2px black inset;
+}
+                                                 /*footer*/
+
+.footer{
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    background-color: #FF8000;
+    color: white;
+    margin-bottom: 2px;
+}
+.red-social, .emails{
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 20%;
+    height: 120px;
+    border-left: 1px solid white;
+    color: white;
+    float: right;
+    padding:10px 15px;
+}
+.red-social h3, .emails h3{
+    font-size: 23px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+.red-social a, .emails a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+.red-social li, .emails li{
+    list-style-type: none;
+    text-align: right;
+    padding-bottom: 5px;
+}  
+
+.emails{
+    width: 25%
+}
+.webs{
+    width:50%;
+    height: 120px;
+    padding-top: 5px;
+    padding-left: -10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float:left;
+    border-left: 1px solid white;
+}
+.webs h3{
+    margin-top: -20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-size: 23px;
+}
+.webs li{
+    padding-bottom: 4px;
+    padding-left: 40px;
+    list-style: none;
+}
+.webs a{
+    text-decoration: none;
+    color: white;
+}
+.second-footer{
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}

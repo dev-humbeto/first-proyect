@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.title-legend{
+    width: 22%;
+    border-bottom: 2px solid #FF8000
+}
+.item-2 input{
+   margin-left: 203px;
+}
+.check{
+    width: 30%;
+    height: 30px;
+}

@@ -1,0 +1,24 @@
+.text{
+    width: 45%;
+    height: auto;
+    margin-left: 200px;
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+.text textarea{
+    width: 80%;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    display: block;
+}
+.send-contac{
+    width:  80%;
+    height: 20px;
+    margin-top: -25px;
+    margin-right: 38px;
+}
+.send-contac:hover{
+    background: #FF9427;
+}
